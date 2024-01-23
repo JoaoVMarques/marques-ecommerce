@@ -1,30 +1,37 @@
-# React + TypeScript + Vite
+# Marques-bank
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="./public/imgs/home1.png" width="100%" />
 
-Currently, two official plugins are available:
+## Sobre
+É um site fullstack onde vai simular um e-commerce
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Porque?
+Treinar meus limites como fullstack e adiciona-lo ao meu portifólio
 
-## Expanding the ESLint configuration
+## 🚀 Instalação do projeto
+<details>
+  <summary>Instalação e execução</summary>
+  
+  #### 1 - Clone o repositório
+  - Use o comando ```git clone git@github.com:JoaoVMarques/marques-ecommerce.git``
+  - Entre na pasta ```cd marques-ecommerce```
+  
+  #### 2 - Instalar as dependencias
+  - Para instalar as dependencias ```npm install```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+  #### 3 - Inicie o projeto
+  - Para iniciar o projeto ```npm run dev```
 
-- Configure the top-level `parserOptions` property like this:
+</details>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Parte Tecnica
+<details>
+  <summary><strong>🛠️ Ferramentas Utilizadas</strong></summary><br />
+  - [VsCode](https://code.visualstudio.com/) Editor de codigo fonte
+  - [Vite](https://vitejs.dev/) Montar o projeto
+</details>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<details>
+  <summary><strong>🧰 Dependencias</strong></summary><br />
+  - [React Bootstrap](https://react-bootstrap.netlify.app/) Estilização
+</details>
