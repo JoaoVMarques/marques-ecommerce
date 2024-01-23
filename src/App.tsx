@@ -2,13 +2,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
 import Router from './routes';
 
-
-function App() {    
+function App() {
   return (
     <BrowserRouter>
       <Router />
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;

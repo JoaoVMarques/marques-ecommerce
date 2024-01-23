@@ -35,4 +35,5 @@ Treinar meus limites como fullstack e adiciona-lo ao meu portifólio
   <summary><strong>🧰 Dependencias</strong></summary><br />
   - [React Bootstrap](https://react-bootstrap.netlify.app/) Estilização
   - [React Router](https://reactrouter.com/en/main) Rotas
+  - [Linter](https://eslint.org/) Linter 
 </details>
