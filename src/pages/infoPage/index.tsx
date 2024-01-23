@@ -1,8 +1,6 @@
 function InfoPage() {
   return (
-    <h1>
-      Marques e-commerce
-    </h1>
+    <h1 className="titleColor">Marques <span className="titleOrange">e-commerce</span></h1>
   );
 }
 

@@ -27,6 +27,7 @@
       "import/extensions": "off",
       "import/no-unresolved": "off",
       "consistent-return": "off",
+      "object-curly-spacing": ["error", "always"],
       // "argsIgnorePattern": "^_",
       "keyword-spacing": [
         "error", { "overrides": {

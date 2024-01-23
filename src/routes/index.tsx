@@ -4,7 +4,7 @@ import InfoPage from '../pages/infoPage';
 function Router() {
   return (
     <Routes>
-      <Route path='/' element={<InfoPage /> } />
+      <Route path='/' element={<InfoPage />} />
     </Routes>
   );
 }
