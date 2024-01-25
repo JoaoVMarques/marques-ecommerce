@@ -5,3 +5,7 @@
 .titleColor {
   color: #1f0441
 }
+
+.title-screen {
+  font-size: calc(125% + 1vw + 1vh);
+}
