@@ -9,17 +9,17 @@ function About() {
   return (
     <Container>
       <Row lg="2">
-        <Col className='d-flex align-items-center'>
+        <Col sm={12} md={7} className='d-flex align-items-center'>
           <Container>
             <Row>
-              <h1 className="titleColor title-screen">Marques
+              <h1 className="titleColor title-screen justify-content-center mb-3">Marques
                 <span className="titleOrange"> e-commerce</span></h1>
             </Row>
             <Row>
-              <p className='fs-6 lh-sm mb-5'>{slogan}</p>
+              <p className='fs-6 lh-sm mb-4 mb-md-5'>{slogan}</p>
             </Row>
             <Row className='grid gap-2 col-8 justify-content-center mx-auto'>
-              <Button className="pink-button">
+              <Button className="pink-button mb-4">
                 <span className='fw-bold fs-4'>
                   Faça parte
                 </span>
@@ -27,8 +27,8 @@ function About() {
             </Row>
           </Container>
         </Col>
-        <Col>
-          <Image src={logo} className='w-75'/>
+        <Col sm={12} md={5}>
+          <Image src={logo} className='w-100 justify-content-center'/>
         </Col>
       </Row>
     </Container>

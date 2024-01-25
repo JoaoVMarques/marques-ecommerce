@@ -1,3 +1,7 @@
+.background {
+  margin: 16px
+}
+
 .titleOrange {
   color: #fcab10;
 }
@@ -7,7 +11,7 @@
 }
 
 .title-screen {
-  font-size: calc(125% + 1vw + 1vh);
+  font-size: calc(100% + 1vw + 1vh);
 }
 
 .pink-button {
