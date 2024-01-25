@@ -7,13 +7,13 @@ import logo from '../../../imgs/ecommerce.png';
 
 function About() {
   return (
-    <Container>
+    <Container className='mb-5'>
       <Row lg="2">
         <Col sm={12} md={7} className='d-flex align-items-center'>
           <Container>
             <Row>
-              <h1 className="titleColor title-screen justify-content-center mb-3">Marques
-                <span className="titleOrange"> e-commerce</span></h1>
+              <h1 className="title-purple title-screen justify-content-center mb-3">Marques
+                <span className="title-orange"> e-commerce</span></h1>
             </Row>
             <Row>
               <p className='fs-6 lh-sm mb-4 mb-md-5'>{slogan}</p>

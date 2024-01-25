@@ -2,16 +2,20 @@
   margin: 16px
 }
 
-.titleOrange {
+.title-orange {
   color: #fcab10;
 }
 
-.titleColor {
+.title-purple {
   color: #1f0441
 }
 
 .title-screen {
   font-size: calc(100% + 1vw + 1vh);
+}
+
+.intro-text {
+  color: #1f0441
 }
 
 .pink-button {
