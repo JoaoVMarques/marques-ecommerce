@@ -17,6 +17,8 @@ function About() {
             </Row>
             <Row>
               <p className='fs-6 lh-sm mb-5'>{slogan}</p>
+            </Row>
+            <Row className='grid gap-2 col-8 justify-content-center mx-auto'>
               <Button className="pink-button">
                 <span className='fw-bold fs-4'>
                   Faça parte
