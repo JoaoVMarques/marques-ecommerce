@@ -1,4 +1,5 @@
 import {
+  Button,
   Col, Container, Image, Row,
 } from 'react-bootstrap';
 import slogan from './texts';
@@ -15,7 +16,12 @@ function About() {
                 <span className="titleOrange"> e-commerce</span></h1>
             </Row>
             <Row>
-              <p className='fs-6 lh-sm'>{slogan}</p>
+              <p className='fs-6 lh-sm mb-5'>{slogan}</p>
+              <Button className="pink-button">
+                <span className='fw-bold fs-4'>
+                  Faça parte
+                </span>
+              </Button>
             </Row>
           </Container>
         </Col>

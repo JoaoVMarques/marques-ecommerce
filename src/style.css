@@ -9,3 +9,24 @@
 .title-screen {
   font-size: calc(125% + 1vw + 1vh);
 }
+
+.pink-button {
+  background-color: #fc1068;
+  border-color: #d80e58
+}
+
+.pink-button:visited,
+.pink-button:focus {
+  background-color: #D90D58 !important;
+  border-color: #d80e58 !important
+}
+
+.pink-button:hover {
+  background-color: #c70d51 !important;
+  border-color: #d80e58 !important
+}
+
+.pink-button:active {
+  background-color: #B00B47 !important;
+  border-color: #d80e58 !important;
+}
