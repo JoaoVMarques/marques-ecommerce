@@ -1,8 +1,6 @@
 import { Container } from 'react-bootstrap';
-import clock from '../../../imgs/svgs/clock.svg';
+import introObjects from './introObject';
 import IconDescription from './IconDescription';
-
-const description = 'sua loja aberta 24 horas por dia, toda semana';
 
 function Intro() {
   return (
@@ -14,7 +12,10 @@ function Intro() {
         coisas nunca foi tão facil!
       </h2>
 
-      <IconDescription logo={ clock } description={ description } />
+      { introObjects.map((intro) => (
+        <IconDescription icon={ intro.icon } description={ intro.description } />
+      ))
+      }
     </Container>
   );
 }

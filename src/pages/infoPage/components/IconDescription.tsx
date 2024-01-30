@@ -1,10 +1,10 @@
 import { Container, Image } from 'react-bootstrap';
 
-function IconDescription(props: { logo: string, description: string }) {
-  const { logo, description } = props;
+function IconDescription(props: { icon: string, description: string }) {
+  const { icon, description } = props;
   return (
     <Container>
-      <Image src={logo} />
+      <Image src={icon} />
       <p>{description}</p>
     </Container>
   );
