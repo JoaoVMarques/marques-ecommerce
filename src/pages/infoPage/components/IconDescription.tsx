@@ -1,12 +1,12 @@
-import { Container, Image } from 'react-bootstrap';
+import { Col, Image } from 'react-bootstrap';
 
 function IconDescription(props: { icon: string, description: string }) {
   const { icon, description } = props;
   return (
-    <Container>
+    <Col>
       <Image src={icon} />
       <p>{description}</p>
-    </Container>
+    </Col>
   );
 }
 

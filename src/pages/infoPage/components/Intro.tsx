@@ -1,10 +1,10 @@
-import { Container } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import introObjects from './introObject';
 import IconDescription from './IconDescription';
 
 function Intro() {
   return (
-    <Container className='gray-background min-vw-100 p-0'>
+    <Container className='gray-background min-vw-100 p-5'>
       <h2 className='text-center intro-text titlePurple'>
         <span className="title-orange">Comprar </span>
         e
@@ -12,10 +12,14 @@ function Intro() {
         coisas nunca foi tão facil!
       </h2>
 
-      { introObjects.map((intro) => (
-        <IconDescription icon={ intro.icon } description={ intro.description } />
-      ))
-      }
+      <Container>
+        <Row>
+          { introObjects.map((intro) => (
+            <IconDescription icon={ intro.icon } description={ intro.description } />
+          ))
+          }
+        </Row>
+      </Container>
     </Container>
   );
 }
