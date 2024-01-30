@@ -7,7 +7,7 @@ import logo from '../../../imgs/ecommerce.png';
 
 function About() {
   return (
-    <Container className='mb-5'>
+    <Container className='mb-5 p-5'>
       <Row lg="2">
         <Col sm={12} md={7} className='d-flex align-items-center'>
           <Container>
