@@ -1,4 +1,8 @@
 import { Container } from 'react-bootstrap';
+import clock from '../../../imgs/svgs/clock.svg';
+import IconDescription from './IconDescription';
+
+const description = 'sua loja aberta 24 horas por dia, toda semana';
 
 function Intro() {
   return (
@@ -7,7 +11,10 @@ function Intro() {
         <span className="title-orange">Comprar </span>
         e
         <span className="title-orange"> vender </span>
-        coisas nunca foi tão facil!</h2>
+        coisas nunca foi tão facil!
+      </h2>
+
+      <IconDescription logo={ clock } description={ description } />
     </Container>
   );
 }
