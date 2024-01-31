@@ -1,6 +1,6 @@
 import { Container, Row } from 'react-bootstrap';
 import introObjects from './introObject';
-import IconDescription from './IconDescription';
+import IconDescription from '../components/IconDescription';
 
 function Intro() {
   return (

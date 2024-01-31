@@ -2,7 +2,7 @@ import {
   Button,
   Col, Container, Image, Row,
 } from 'react-bootstrap';
-import slogan from './texts';
+import slogan from '../components/texts';
 import logo from '../../../imgs/ecommerce.png';
 
 function About() {

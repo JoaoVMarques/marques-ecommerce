@@ -1,5 +1,5 @@
-import About from './components/About';
-import Intro from './components/Intro';
+import About from './AboutSection';
+import Intro from './IntroSection';
 
 function InfoPage() {
   return (
