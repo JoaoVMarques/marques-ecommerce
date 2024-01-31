@@ -1,11 +1,15 @@
-import { Col, Image } from 'react-bootstrap';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 
 function IconDescription(props: { icon: string, description: string }) {
   const { icon, description } = props;
   return (
     <Col>
-      <Image src={icon} />
-      <p>{description}</p>
+      <Container>
+        <Row className='justify-content-center text-center'>
+          <Image src={icon} className='w-25 mb-2' />
+          <p>{description}</p>
+        </Row>
+      </Container>
     </Col>
   );
 }
