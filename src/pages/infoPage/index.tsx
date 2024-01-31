@@ -1,4 +1,5 @@
 import About from './AboutSection';
+import ImageSection from './ImageSection';
 import Intro from './IntroSection';
 
 function InfoPage() {
@@ -6,6 +7,7 @@ function InfoPage() {
     <>
       <About />
       <Intro />
+      <ImageSection />
     </>
   );
 }
