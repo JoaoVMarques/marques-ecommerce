@@ -4,17 +4,17 @@ import cartIcon from '../../../imgs/svgs/cart.svg';
 
 export const clock = {
   icon: clockIcon,
-  description: 'Sua loja aberta 24 horas por dia, toda semana',
+  description: 'Sua loja disponível 24 horas por dia, todos os dias da semana.',
 };
 
 export const support = {
-  icon: supportIcon,
-  description: 'Suporte, rapido e pratico a todo momento',
+  icon: supportIcon,  
+  description: 'Suporte ágil e prático a qualquer momento, garantindo sua total satisfação.',
 };
 
 export const cart = {
   icon: cartIcon,
-  description: 'Compre e venda tudo com facilidade, e velocidade',
+  description: 'Compre e venda, oferecendo facilidade e rapidez em cada transação',
 };
 
 const allObjects = [clock, support, cart];
