@@ -15,7 +15,7 @@ function Intro() {
       <Container>
         <Row>
           { introObjects.map((intro) => (
-            <IconDescription icon={ intro.icon } description={ intro.description } />
+            <IconDescription icon={ intro.icon } key={ intro.name } description={ intro.description } />
           ))
           }
         </Row>

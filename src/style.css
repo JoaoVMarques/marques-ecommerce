@@ -10,6 +10,27 @@
   font-size: calc(100% + 0.8vw + 1vh);
 }
 
+.orange-button {
+  background-color: #fcab10;
+  border-color: #fcab10;
+}
+
+.orange-button:visited,
+.orange-button:focus {
+  background-color: #FCC60F !important;
+  border-color: #FCC60F !important
+}
+
+.orange-button:hover {
+  background-color: #FCC60F !important;
+  border-color: #FCC60F !important
+}
+
+.orange-button:active {
+  background-color: #ffcf32 !important;
+  border-color: #ffcf32 !important;
+}
+
 .section-background {
   min-width: 99.22vw!important;
   background-color: #f5f5f5

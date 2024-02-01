@@ -1,11 +1,9 @@
-import { Container } from 'react-bootstrap';
+import Newsletter from './components/Newsletter';
 
 function Footer() {
   return (
     <footer>
-      <Container className='section-background p-5'>
-        TESTE
-      </Container>
+      <Newsletter />
     </footer>
   );
 }
