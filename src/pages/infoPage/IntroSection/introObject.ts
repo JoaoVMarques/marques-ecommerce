@@ -10,7 +10,7 @@ export const clock = {
 
 export const support = {
   name: 'supportIcon',
-  icon: supportIcon,  
+  icon: supportIcon,
   description: 'Suporte ágil e prático a qualquer momento, garantindo sua total satisfação.',
 };
 

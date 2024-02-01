@@ -1,5 +1,7 @@
-import { Col, Container, Image, Row } from 'react-bootstrap';
-import linkedin from '../../../../imgs/svgs/linkedin.svg'
+import {
+  Col, Container, Image, Row,
+} from 'react-bootstrap';
+import linkedin from '../../../../imgs/svgs/linkedin.svg';
 
 function IconsSocialMedia() {
   return (

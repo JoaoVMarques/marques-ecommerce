@@ -1,4 +1,4 @@
-import { Container, Image } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import Newsletter from './components/Newsletter';
 import IconsSocialMedia from './components/IconsSocialMedia';
 

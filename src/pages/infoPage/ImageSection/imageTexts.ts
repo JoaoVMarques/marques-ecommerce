@@ -6,4 +6,4 @@ export const sellerText = `Oferecemos a você total controle sobre o seu estoque
 os vendedores têm a garantia de manter um acompanhamento preciso e eficiente de seus produtos.
 Controle seu inventário de forma intuitiva, sempre mantendo-se informado e no comando. 
 Facilitamos a gestão para que você possa focar no crescimento do seu negócio
-` 
+`;

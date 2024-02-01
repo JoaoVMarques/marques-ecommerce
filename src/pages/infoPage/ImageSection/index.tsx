@@ -1,6 +1,8 @@
-import { Col, Container, Image, Row } from "react-bootstrap";
-import placeholder from '../../../imgs/placeholder-image.png'
-import { securityText, sellerText } from "./imageTexts";
+import {
+  Col, Container, Image, Row,
+} from 'react-bootstrap';
+import placeholder from '../../../imgs/placeholder-image.png';
+import { securityText, sellerText } from './imageTexts';
 
 function ImageSection() {
   return (
@@ -13,7 +15,8 @@ function ImageSection() {
           <Col sm={12} md={6} className="p-0 ps-3 d-flex align-items-center">
             <Container>
               <Row>
-                <h2 className="font-weight-bold">Aqui a venda e compra é 100% segura e super simples de se efetuar</h2>
+                <h2 className="font-weight-bold">
+                  Aqui a venda e compra é 100% segura e super simples de se efetuar</h2>
                 <p>{ securityText }</p>
               </Row>
             </Container>
@@ -21,7 +24,7 @@ function ImageSection() {
         </Row>
       </Container>
       <Container>
-      <Row>
+        <Row>
           <Col sm={12} md={6} className="p-0 ps-3 d-flex align-items-center">
             <Container>
               <Row>

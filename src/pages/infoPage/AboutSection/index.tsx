@@ -2,8 +2,8 @@ import {
   Button,
   Col, Container, Image, Row,
 } from 'react-bootstrap';
-import slogan from './texts';
 import logo from '../../../imgs/ecommerce.png';
+import { altImageEcommerce, slogan } from './texts';
 
 function About() {
   return (
@@ -28,7 +28,7 @@ function About() {
           </Container>
         </Col>
         <Col sm={12} md={5}>
-          <Image src={logo} alt={"computador com um e-commerce, passo a passo de como funciona"} className='w-100 justify-content-center'/>
+          <Image src={logo} alt={altImageEcommerce} className='w-100 justify-content-center'/>
         </Col>
       </Row>
     </Container>

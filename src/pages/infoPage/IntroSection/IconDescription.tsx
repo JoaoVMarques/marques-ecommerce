@@ -1,4 +1,6 @@
-import { Col, Container, Image, Row } from 'react-bootstrap';
+import {
+  Col, Container, Image, Row,
+} from 'react-bootstrap';
 
 function IconDescription(props: { icon: string, description: string }) {
   const { icon, description } = props;

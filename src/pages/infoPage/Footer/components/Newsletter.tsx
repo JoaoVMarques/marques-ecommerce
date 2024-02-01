@@ -1,4 +1,6 @@
-import { Button, Col, Container, FormControl, Row } from 'react-bootstrap';
+import {
+  Button, Col, Container, FormControl, Row,
+} from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 
 function Newsletter() {
@@ -11,17 +13,17 @@ function Newsletter() {
       </Row>
       <Row className='justify-content-center'>
         <Col md={3}>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-              <FormControl type="email" placeholder='seu@email.com' />
-            </Form.Group>
-          </Col>
-          <Col md={2}>
-            <Button className='w-75 orange-button'>
-              <span>
+          <Form.Group className="mb-3" controlId="formBasicEmail">
+            <FormControl type="email" placeholder='seu@email.com' />
+          </Form.Group>
+        </Col>
+        <Col md={2}>
+          <Button className='w-75 orange-button'>
+            <span>
                 Assinar
-              </span>
-            </Button> 
-          </Col>
+            </span>
+          </Button>
+        </Col>
       </Row>
     </Container>
   );
