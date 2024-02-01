@@ -28,7 +28,7 @@ function About() {
           </Container>
         </Col>
         <Col sm={12} md={5}>
-          <Image src={logo} className='w-100 justify-content-center'/>
+          <Image src={logo} alt={"computador com um e-commerce, passo a passo de como funciona"} className='w-100 justify-content-center'/>
         </Col>
       </Row>
     </Container>

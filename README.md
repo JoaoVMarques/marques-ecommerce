@@ -30,6 +30,7 @@ Treinar meus limites como fullstack e adiciona-lo ao meu portifólio
   - [VsCode](https://code.visualstudio.com/) Editor de codigo fonte
   - [Vite](https://vitejs.dev/) Montar o projeto
   - [PNGwing](https://www.pngwing.com/en/) Imagens gratuitas
+  - [SvgRepo](https://www.svgrepo.com/) icones gratuitos
 </details>
 
 <details>

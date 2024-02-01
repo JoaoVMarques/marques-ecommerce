@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 
 function Newsletter() {
   return (
-    <Container className='section-background p-5'>
+    <Container>
       <Row className='mb-3'>
         <Col>
           <h2 className='text-center'>Assine nossa Newsletter</h2>

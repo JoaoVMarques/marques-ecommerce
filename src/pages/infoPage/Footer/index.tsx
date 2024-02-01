@@ -1,9 +1,15 @@
+import { Container, Image } from 'react-bootstrap';
 import Newsletter from './components/Newsletter';
+import IconsSocialMedia from './components/IconsSocialMedia';
 
 function Footer() {
   return (
     <footer>
-      <Newsletter />
+      <Container className='section-background p-5'>
+        <Newsletter />
+        <hr className='w-50 mx-auto' />
+        <IconsSocialMedia />
+      </Container>
     </footer>
   );
 }
