@@ -8,7 +8,9 @@ function IconsSocialMedia() {
     <Container>
       <Row>
         <Col className='justify-content-center text-center'>
-          <Image src={linkedin} width={30}/>
+          <a href='https://www.linkedin.com/in/joaomarquesdev/' target="_blank">
+            <Image src={linkedin} width={30}/>
+          </a>
         </Col>
       </Row>
     </Container>
