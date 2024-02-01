@@ -1,7 +1,5 @@
 # Marques-bank
 
-<img src="./public/imgs/home1.png" width="100%" />
-
 ## Sobre
 É um site fullstack onde vai simular um e-commerce
 
