@@ -17,6 +17,6 @@ export const cart = {
   description: 'Compre e venda, oferecendo facilidade e rapidez em cada transação',
 };
 
-const allObjects = [clock, support, cart];
+const allObjects = [clock, cart, support];
 
 export default allObjects;

@@ -4,7 +4,7 @@ import { securityText, sellerText } from "./imageTexts";
 
 function ImageSection() {
   return (
-    <Container className="mt-5">
+    <Container className="mt-5 mb-5">
       <Container className="mb-5">
         <Row>
           <Col sm={12} md={6}>

@@ -10,8 +10,9 @@
   font-size: calc(100% + 0.8vw + 1vh);
 }
 
-.min-vw-99 {
-  min-width: 99vw!important;
+.section-background {
+  min-width: 99.22vw!important;
+  background-color: #f5f5f5
 }
 
 .icon-intro {
@@ -20,10 +21,6 @@
 
 .intro-text {
   color: #1f0441
-}
-
-.gray-background {
-  background-color: #f5f5f5
 }
 
 .pink-button {
