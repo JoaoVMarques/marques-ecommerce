@@ -1,4 +1,4 @@
-# Marques-bank
+# Marques-Ecommerce
 
 ## Sobre
 É um site fullstack onde vai simular um e-commerce

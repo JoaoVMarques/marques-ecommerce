@@ -4,6 +4,7 @@ import {
 } from 'react-bootstrap';
 import logo from '../../../imgs/ecommerce.png';
 import { altImageEcommerce, slogan } from './texts';
+import { Link } from 'react-router-dom';
 
 function About() {
   return (
@@ -19,11 +20,13 @@ function About() {
               <p className='fs-6 lh-sm mb-4 mb-md-5'>{slogan}</p>
             </Row>
             <Row className='grid gap-2 col-8 justify-content-center mx-auto'>
-              <Button className="pink-button mb-4">
-                <span className='fw-bold fs-4'>
-                  Faça parte
-                </span>
-              </Button>
+              <Link to="/plans">
+                <Button className="pink-button mb-4 w-100">
+                  <span className='fw-bold fs-4'>
+                    Faça parte
+                  </span>
+                </Button>
+              </Link>
             </Row>
           </Container>
         </Col>
