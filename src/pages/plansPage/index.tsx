@@ -1,7 +1,9 @@
+import TextSection from "./TextSection";
+
 function InfoPage() {
   return (
     <>
-      <h1>title</h1>
+      <TextSection />
     </>
   );
 }
