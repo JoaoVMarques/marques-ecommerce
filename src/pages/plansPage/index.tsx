@@ -1,9 +1,11 @@
+import Plans from "./Plans";
 import TextSection from "./TextSection";
 
 function InfoPage() {
   return (
     <>
       <TextSection />
+      <Plans />
     </>
   );
 }
