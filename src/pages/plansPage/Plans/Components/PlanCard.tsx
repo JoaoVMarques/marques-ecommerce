@@ -1,11 +1,9 @@
 import { Button, Card, Col } from "react-bootstrap";
+import interfacePlans from "../interfaces/plans";
 
-interface planObject {
-  name: string,
-  description: string,
-}
 
-function PlanCard(props: { plan: planObject }) {
+
+function PlanCard(props: { plan: interfacePlans }) {
   const { plan } = props
   return (
     <Col>
@@ -14,7 +12,9 @@ function PlanCard(props: { plan: planObject }) {
         <Card.Title>{ plan.name }</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">{plan.description}</Card.Subtitle>
         <Card.Text>
-          R$ 20
+          <h3>
+            R$ { plan.price }
+          </h3>
         </Card.Text>
         <Button className="orange-button mb-4 w-100">
           Assine já
