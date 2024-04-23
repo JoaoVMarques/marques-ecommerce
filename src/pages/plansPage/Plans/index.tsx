@@ -1,13 +1,15 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import PlanCard from "./Components/PlanCard";
+import plansObject from './Components/plansObject'
 
 function Plans() {
   return (
     <Container>
       <Row>
-        <Col>
-          <PlanCard />
-        </Col>
+        { plansObject.map((plan) => (
+          <PlanCard plan={plan} />
+          ))
+        }
       </Row>
     </Container>
   );

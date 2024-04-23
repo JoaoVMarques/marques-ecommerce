@@ -17,7 +17,7 @@ export const support = {
 export const cart = {
   name: 'cartIcon',
   icon: cartIcon,
-  description: 'Compre e venda, oferecendo facilidade e rapidez em cada transação',
+  description: 'Compre e venda, oferecendo facilidade e rapidez em cada transação.',
 };
 
 const allObjects = [clock, cart, support];
