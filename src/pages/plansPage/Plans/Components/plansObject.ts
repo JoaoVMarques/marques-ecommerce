@@ -1,27 +1,27 @@
 import interfacePlans from "../interfaces/plans";
 
 export const bronze: interfacePlans = {
-  name: 'bronze',
+  name: 'Bronze',
   price: 15,
   description: 'Praticidade para atender você com nosso plano mais acessível e completo.',
 };
 
 export const silver: interfacePlans = {
-  name: 'prata',
+  name: 'Prata',
   price: 35,
-  description: 'Suporte ágil e prático a qualquer momento, garantindo sua total satisfação.',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum.',
 };
 
 export const gold: interfacePlans = {
-  name: 'ouro',
+  name: 'Ouro',
   price: 60,
-  description: 'Compre e venda, oferecendo facilidade e rapidez em cada transação.',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum.',
 };
 
 export const diamond: interfacePlans = {
-  name: 'diamante',
+  name: 'Diamante',
   price: 100,
-  description: 'Compre e venda, oferecendo facilidade e rapidez em cada transação.',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum.',
 };
 
 const allObjects = [bronze, silver, gold, diamond];
