@@ -1,6 +1,8 @@
 import { Container, Row } from "react-bootstrap";
 import PlanCard from "./Components/PlanCard";
-import plansObject from './Components/plansObject'
+import plansObject from './Components/plansObject';
+import { cobalto } from './Components/plansObject';
+import PlanCardFree from "./Components/PlanCardFree";
 
 function Plans() {
   return (
@@ -10,6 +12,9 @@ function Plans() {
           <PlanCard plan={plan} />
           ))
         }
+      </Row>
+      <Row>
+        <PlanCardFree plan={ cobalto }/>
       </Row>
     </Container>
   );

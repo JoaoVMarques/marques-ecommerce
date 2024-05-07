@@ -4,15 +4,15 @@ import PricePlan from "./PricePlan";
 
 
 
-function PlanCard(props: { plan: interfacePlans }) {
+function PlanCardFree(props: { plan: interfacePlans }) {
   const { plan } = props
   return (
-    <Col className="mb-5 d-flex justify-content-center" lg={3} sm={6}>
+    <Col>
       <Card style={{ width: '18rem' }}>
         <Card.Body>
           <Card.Title>{ plan.name }</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">{plan.description}</Card.Subtitle>
-          <PricePlan price={ plan.price } />
+          <h2>Gratuito</h2>
           <Button className="orange-button mb-4 w-100">
             Assine já
           </Button>
@@ -22,4 +22,4 @@ function PlanCard(props: { plan: interfacePlans }) {
   );
 }
 
-export default PlanCard;
+export default PlanCardFree;

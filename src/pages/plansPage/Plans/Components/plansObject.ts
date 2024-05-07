@@ -1,9 +1,15 @@
 import interfacePlans from "../interfaces/plans";
 
+export const cobalto: interfacePlans = {
+  name: 'Cobalto',
+  price: 0,
+  description: 'Praticidade para atender você com nosso plano mais acessível e completo.'
+}
+
 export const bronze: interfacePlans = {
   name: 'Bronze',
   price: 15,
-  description: 'Praticidade para atender você com nosso plano mais acessível e completo.',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum.',
 };
 
 export const silver: interfacePlans = {
