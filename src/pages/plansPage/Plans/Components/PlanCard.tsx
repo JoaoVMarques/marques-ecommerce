@@ -1,7 +1,7 @@
-import { Button, Card, Col } from "react-bootstrap";
+import { Button, Card, Col, ListGroup } from "react-bootstrap";
 import interfacePlans from "../interfaces/plans";
 import PricePlan from "./PricePlan";
-
+import check from "../../../../imgs/svgs/check.svg";
 
 
 function PlanCard(props: { plan: interfacePlans }) {
@@ -16,6 +16,14 @@ function PlanCard(props: { plan: interfacePlans }) {
           <Button className="orange-button mb-4 w-100">
             Assine já
           </Button>
+          <ListGroup className="list-group-flush ">
+            { plan.benefits.map((name) => (
+                <ListGroup.Item>
+                  <img src={check} />
+                  <span>{name}</span>
+                </ListGroup.Item> )) 
+            }
+          </ListGroup>
         </Card.Body>
       </Card>
     </Col>

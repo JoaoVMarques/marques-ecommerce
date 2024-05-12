@@ -1,8 +1,5 @@
 import { Button, Card, Col } from "react-bootstrap";
 import interfacePlans from "../interfaces/plans";
-import PricePlan from "./PricePlan";
-
-
 
 function PlanCardFree(props: { plan: interfacePlans }) {
   const { plan } = props

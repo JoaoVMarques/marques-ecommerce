@@ -1,4 +1,4 @@
-import { Card, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 function PricePlan (props: { price: number }) {
   const { price } = props
