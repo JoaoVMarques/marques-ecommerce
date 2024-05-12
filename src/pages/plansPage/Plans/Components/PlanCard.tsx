@@ -19,7 +19,7 @@ function PlanCard(props: { plan: interfacePlans }) {
           <ListGroup className="list-group-flush ">
             { plan.benefits.map((name) => (
                 <ListGroup.Item>
-                  <img src={check} />
+                  <img src={check} className="check-icon" />
                   <span>{name}</span>
                 </ListGroup.Item> )) 
             }
