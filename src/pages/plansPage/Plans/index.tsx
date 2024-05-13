@@ -9,7 +9,7 @@ function Plans() {
     <Container>
       <Row>
         { plansObject.map((plan) => (
-          <PlanCard plan={plan} />
+          <PlanCard key={plan.name} plan={plan} />
           ))
         }
       </Row>

@@ -1,8 +1,15 @@
-import { Button, Card, Col, ListGroup } from "react-bootstrap";
+import { Button, Card, Col, Container, ListGroup } from "react-bootstrap";
 import interfacePlans from "../interfaces/plans";
 import PricePlan from "./PricePlan";
 import check from "../../../../imgs/svgs/check.svg";
+import sign from "../../../../imgs/svgs/sign.svg";
 
+function checkIfAdsIsIlimited(maxAds: number) {
+  if (maxAds > 0) {
+    return <span>{maxAds} Anúncios</span>
+  }
+  return <span>Anúncios ilimitados</span>
+}
 
 function PlanCard(props: { plan: interfacePlans }) {
   const { plan } = props
@@ -18,12 +25,17 @@ function PlanCard(props: { plan: interfacePlans }) {
           </Button>
           <ListGroup className="list-group-flush list-group-item-secondary list-border">
             { plan.benefits.map((name) => (
-                <ListGroup.Item>
-                  <img src={check} className="check-icon" />
+                <ListGroup.Item key={name}>
+                  <img src={check} alt="icone check" className="check-icon" />
                   <span>{name}</span>
                 </ListGroup.Item> )) 
             }
           </ListGroup>
+          <Container className="mt-4">
+              <img src={sign} alt="icone anuncio" width={20} className="me-2" />
+              { checkIfAdsIsIlimited(plan.maxAds) }
+
+            </Container>
         </Card.Body>
       </Card>
     </Col>
