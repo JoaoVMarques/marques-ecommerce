@@ -39,6 +39,10 @@
   min-width: 99.22vw!important;
 }
 
+.list-border {
+  border-radius: 6px;
+}
+
 .white-secondary-backgroud {
   background-color: #f5f3f4;
 }
