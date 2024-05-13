@@ -5,7 +5,7 @@ import IconsSocialMedia from './components/IconsSocialMedia';
 function Footer() {
   return (
     <footer>
-      <Container className='section-background p-5'>
+      <Container className='section-background white-secondary-backgroud p-5'>
         <Newsletter />
         <hr className='w-50 mx-auto' />
         <IconsSocialMedia />

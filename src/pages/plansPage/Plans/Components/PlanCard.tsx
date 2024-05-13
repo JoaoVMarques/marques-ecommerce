@@ -16,7 +16,7 @@ function PlanCard(props: { plan: interfacePlans }) {
           <Button className="orange-button mb-4 w-100">
             Assine já
           </Button>
-          <ListGroup className="list-group-flush ">
+          <ListGroup className="list-group-flush white-secondary-backgroud">
             { plan.benefits.map((name) => (
                 <ListGroup.Item>
                   <img src={check} className="check-icon" />

@@ -4,7 +4,7 @@ import IconDescription from './IconDescription';
 
 function Intro() {
   return (
-    <Container className='section-background p-5'>
+    <Container className='section-background white-secondary-backgroud p-5'>
       <h2 className='text-center mb-5'>
         <span className="title-orange">Comprar </span>
         e
