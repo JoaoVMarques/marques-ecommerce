@@ -1,16 +1,10 @@
 import {
   Button, Card, Col, Container, ListGroup,
 } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import interfacePlans from '../interfaces/plans';
 import check from '../../../../imgs/svgs/check.svg';
 import sign from '../../../../imgs/svgs/sign.svg';
-
-function checkIfAdsIsIlimited(maxAds: number) {
-  if(maxAds > 0) {
-    return <span>{maxAds} Anúncios</span>;
-  }
-  return <span>Anúncios ilimitados</span>;
-}
 
 function PlanCardFree(props: { plan: interfacePlans }) {
   const { plan } = props;
@@ -21,9 +15,11 @@ function PlanCardFree(props: { plan: interfacePlans }) {
           <Card.Title>{ plan.name }</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">{plan.description}</Card.Subtitle>
           <h2>Gratuito</h2>
-          <Button className="orange-button mb-4 w-100">
-            Assine já
-          </Button>
+          <Link to={`/subscribe/${plan.redirectWebsite}-plan`}>
+            <Button className="orange-button mb-4 w-100">
+              Assine já
+            </Button>
+          </Link>
           <ListGroup className="list-group-flush list-group-item-secondary list-border">
             { plan.benefits.map((name) => (
               <ListGroup.Item key={name}>
@@ -34,7 +30,7 @@ function PlanCardFree(props: { plan: interfacePlans }) {
           </ListGroup>
           <Container className="mt-4">
             <img src={sign} alt="icone anuncio" width={20} className="me-2" />
-            { checkIfAdsIsIlimited(plan.maxAds) }
+            <span>{plan.maxAds} Anúncios</span>
           </Container>
         </Card.Body>
       </Card>

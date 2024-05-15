@@ -1,6 +1,6 @@
 import interfacePlans from '../interfaces/plans';
 
-export const cobalto: interfacePlans = {
+export const cobalt: interfacePlans = {
   name: 'Cobalto',
   price: 0,
   maxAds: 5,
@@ -8,6 +8,7 @@ export const cobalto: interfacePlans = {
   benefits: [
     'Recursos base',
   ],
+  redirectWebsite: 'cobalt',
 };
 
 export const bronze: interfacePlans = {
@@ -19,6 +20,7 @@ export const bronze: interfacePlans = {
     'Suporte prioritário',
     'Nota de consumidor',
   ],
+  redirectWebsite: 'bronze',
 };
 
 export const silver: interfacePlans = {
@@ -31,6 +33,7 @@ export const silver: interfacePlans = {
     'Emissão de notas fiscais',
     'Atualização automática de pedidos de venda',
   ],
+  redirectWebsite: 'silver',
 };
 
 export const gold: interfacePlans = {
@@ -43,6 +46,7 @@ export const gold: interfacePlans = {
     'Emissão de notas fiscais',
     'Atualização automática de pedidos de venda',
   ],
+  redirectWebsite: 'gold',
 };
 
 export const diamond: interfacePlans = {
@@ -56,6 +60,7 @@ export const diamond: interfacePlans = {
     'Atualização automática de pedidos de venda',
     'Integrações com outros e-commerces e marketplaces',
   ],
+  redirectWebsite: 'diamond',
 };
 
 const allObjects = [bronze, silver, gold, diamond];

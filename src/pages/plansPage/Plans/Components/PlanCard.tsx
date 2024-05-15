@@ -1,6 +1,7 @@
 import {
   Button, Card, Col, Container, ListGroup,
 } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import interfacePlans from '../interfaces/plans';
 import PricePlan from './PricePlan';
 import check from '../../../../imgs/svgs/check.svg';
@@ -22,9 +23,11 @@ function PlanCard(props: { plan: interfacePlans }) {
           <Card.Title>{ plan.name }</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">{plan.description}</Card.Subtitle>
           <PricePlan price={ plan.price } />
-          <Button className="orange-button mb-4 w-100">
-            Assine já
-          </Button>
+          <Link to={`/subscribe/${plan.redirectWebsite}-plan`}>
+            <Button className="orange-button mb-4 w-100">
+              Assine já
+            </Button>
+          </Link>
           <ListGroup className="list-group-flush list-group-item-secondary list-border">
             { plan.benefits.map((name) => (
               <ListGroup.Item key={name}>
