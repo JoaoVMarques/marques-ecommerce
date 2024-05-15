@@ -2,9 +2,9 @@ import {
   Button,
   Col, Container, Image, Row,
 } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import logo from '../../../imgs/ecommerce.png';
 import { altImageEcommerce, slogan } from './texts';
-import { Link } from 'react-router-dom';
 
 function About() {
   return (

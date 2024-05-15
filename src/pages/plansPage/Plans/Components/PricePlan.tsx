@@ -1,7 +1,7 @@
-import { Container } from "react-bootstrap";
+import { Container } from 'react-bootstrap';
 
-function PricePlan (props: { price: number }) {
-  const { price } = props
+function PricePlan(props: { price: number }) {
+  const { price } = props;
   return (
     <Container>
       <span className="align-top fw-bold">

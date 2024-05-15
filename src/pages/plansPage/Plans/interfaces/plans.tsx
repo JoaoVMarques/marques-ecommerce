@@ -6,4 +6,4 @@ interface interfacePlans {
   benefits: string[]
 }
 
-export default interfacePlans
+export default interfacePlans;

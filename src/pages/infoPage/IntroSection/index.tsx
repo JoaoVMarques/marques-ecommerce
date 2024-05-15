@@ -19,7 +19,7 @@ function Intro() {
               icon={ intro.icon }
               key={ intro.name }
               description={ intro.description } />
-            ))
+          ))
           }
         </Row>
       </Container>

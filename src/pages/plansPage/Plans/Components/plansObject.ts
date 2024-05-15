@@ -1,4 +1,4 @@
-import interfacePlans from "../interfaces/plans";
+import interfacePlans from '../interfaces/plans';
 
 export const cobalto: interfacePlans = {
   name: 'Cobalto',
@@ -6,9 +6,9 @@ export const cobalto: interfacePlans = {
   maxAds: 5,
   description: 'Praticidade para atender você com nosso plano mais acessível e completo.',
   benefits: [
-    "Suporte prioritário"
-  ]
-}
+    'Suporte prioritário',
+  ],
+};
 
 export const bronze: interfacePlans = {
   name: 'Bronze',
@@ -16,8 +16,9 @@ export const bronze: interfacePlans = {
   maxAds: 10,
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum.',
   benefits: [
-    "Suporte prioritário", "Nota de consumidor"
-  ]
+    'Suporte prioritário',
+    'Nota de consumidor',
+  ],
 };
 
 export const silver: interfacePlans = {
@@ -26,8 +27,10 @@ export const silver: interfacePlans = {
   maxAds: 15,
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum.',
   benefits: [
-    "Suporte prioritário", "Emissão de notas fiscais", "Atualização automática de pedidos de venda"
-  ]
+    'Suporte prioritário',
+    'Emissão de notas fiscais',
+    'Atualização automática de pedidos de venda',
+  ],
 };
 
 export const gold: interfacePlans = {
@@ -36,8 +39,10 @@ export const gold: interfacePlans = {
   maxAds: 30,
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum.',
   benefits: [
-    "Suporte 24 horas para membros.", "Emissão de notas fiscais", "Atualização automática de pedidos de venda",
-  ]
+    'Suporte 24 horas para membros.',
+    'Emissão de notas fiscais',
+    'Atualização automática de pedidos de venda',
+  ],
 };
 
 export const diamond: interfacePlans = {
@@ -46,8 +51,11 @@ export const diamond: interfacePlans = {
   maxAds: 0,
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum.',
   benefits: [
-    "Suporte 24 horas prioritario para membros.", "Emissão de notas fiscais", "Atualização automática de pedidos de venda", "Integrações com outros e-commerces e marketplaces"
-  ]
+    'Suporte 24 horas prioritario para membros.',
+    'Emissão de notas fiscais',
+    'Atualização automática de pedidos de venda',
+    'Integrações com outros e-commerces e marketplaces',
+  ],
 };
 
 const allObjects = [bronze, silver, gold, diamond];

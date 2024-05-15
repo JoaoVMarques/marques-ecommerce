@@ -1,8 +1,8 @@
-import { Button, Card, Col } from "react-bootstrap";
-import interfacePlans from "../interfaces/plans";
+import { Button, Card, Col } from 'react-bootstrap';
+import interfacePlans from '../interfaces/plans';
 
 function PlanCardFree(props: { plan: interfacePlans }) {
-  const { plan } = props
+  const { plan } = props;
   return (
     <Col>
       <Card style={{ width: '18rem' }}>

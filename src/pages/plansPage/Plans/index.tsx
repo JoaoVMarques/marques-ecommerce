@@ -1,8 +1,8 @@
-import { Container, Row } from "react-bootstrap";
-import PlanCard from "./Components/PlanCard";
-import plansObject from './Components/plansObject';
-import { cobalto } from './Components/plansObject';
-import PlanCardFree from "./Components/PlanCardFree";
+import { Container, Row } from 'react-bootstrap';
+import PlanCard from './Components/PlanCard';
+import plansObject, { cobalto } from './Components/plansObject';
+
+import PlanCardFree from './Components/PlanCardFree';
 
 function Plans() {
   return (
@@ -10,7 +10,7 @@ function Plans() {
       <Row>
         { plansObject.map((plan) => (
           <PlanCard key={plan.name} plan={plan} />
-          ))
+        ))
         }
       </Row>
       <Row>

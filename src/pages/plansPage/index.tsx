@@ -1,5 +1,5 @@
-import Plans from "./Plans";
-import TextSection from "./TextSection";
+import Plans from './Plans';
+import TextSection from './TextSection';
 
 function InfoPage() {
   return (
