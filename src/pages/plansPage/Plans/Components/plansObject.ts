@@ -6,7 +6,7 @@ export const cobalto: interfacePlans = {
   maxAds: 5,
   description: 'Praticidade para atender você com nosso plano mais acessível e completo.',
   benefits: [
-    'Suporte prioritário',
+    'Recursos base',
   ],
 };
 

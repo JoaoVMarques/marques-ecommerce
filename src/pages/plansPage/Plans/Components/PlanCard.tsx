@@ -36,7 +36,6 @@ function PlanCard(props: { plan: interfacePlans }) {
           <Container className="mt-4">
             <img src={sign} alt="icone anuncio" width={20} className="me-2" />
             { checkIfAdsIsIlimited(plan.maxAds) }
-
           </Container>
         </Card.Body>
       </Card>
