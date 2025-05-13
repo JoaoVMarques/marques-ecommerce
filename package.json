@@ -1,5 +1,6 @@
 {
   "name": "marques-ecommerce",
+  "homepage": "https://JoaoVMarques.github.io/marques-ecommerce",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +12,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.0",
     "react-dom": "^18.2.0",
