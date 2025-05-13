@@ -14,7 +14,7 @@ const plansRoutes = [
 function Router() {
   return (
     <Routes>
-      <Route path='/' element={<InfoPage />} />
+      <Route path='/https://JoaoVMarques.github.io/marques-ecommerce/' element={<InfoPage />} />
       <Route path='/plans' element={<PlansPage />} />
       <Route>
         {plansRoutes.map((path, index) => (
